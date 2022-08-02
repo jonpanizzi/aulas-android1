@@ -1,0 +1,78 @@
+Professor: Rafael Mendes Torres Leal
+Aulas Segunda e Quinta
+
+Variáveis escritas com letra maiúscula;
+
+fun main() = descrição de função
+
+val = valor, constante
+
+var = modificável 
+
+tipagem implícita, reconhece direto na variável
+
+var c: Char = "a"
+var text: String = "Olá"
+
+texto = c.toString()
+println(texto)
+
+println = printar com quebra de linha no final
+print = apenas texto demonstrada tela
+
+
+
+" anotações sobre TP1:
+
+-------------------
+Questão 7:
+
+fun associaValor(c: Char) : Int {
+	// associar valor à letra. exemplo:
+	// a -> 1
+	// b -> 2
+	
+	return 0
+{
+
+fun associaValorPosicao(c: Char, posicao: Int): Int {
+	
+	return associaValor(c)*posicao 
+}
+
+fun valorAssociaddoFinal(palavra: String) : Int {
+ 	var soma = 0
+	
+	// para cada letra na palavra calcule associaValorPosicao
+	// e some à soma
+	//
+	return soma
+
+encerra questão 7
+---------------------
+
+"" TP1-end
+
+
+
+" Desafios
+
+
+
+fun divisaoEuclidiana(Dividendo: Int, divisor: Int) : List<Int> {
+	
+	var D = Dividendo
+	var d = dividendo
+	var q = 0 
+		
+	while(D >= d) {
+		D = D -d
+		q = q+1
+		
+}
+	return listOf<Int>( q, D )
+}
+
+"" Desafios ""
+
+
